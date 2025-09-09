@@ -1,0 +1,27 @@
+/* Projektin tyylit */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --tausta: #333333;
+    --teksti: #eeeeee;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: var(--tausta);
+    color: var(--teksti);
+}
+
+/* kriteerit muotoilu */
+body.kriteerit2 table,
+body.kriteerit2 th,
+body.kriteerit2 td {
+    border: 1px solid #eeeeee;
+    color: var(--teksti)
+}
