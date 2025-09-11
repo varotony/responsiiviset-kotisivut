@@ -5,6 +5,7 @@
     --tausta: #3b4451; /* #333333; */
     --teksti: #eeeeee;
     --bg-dark: #444444;
+    --bg-black: #000000;
 }
 
 * {
@@ -29,7 +30,7 @@ body.kriteerit2 td {
 
 /* Header */
 header {
-    background-color: var(--bg-dark);
+    background-color: var(--bg-black);
     color: var(--teksti);
     padding: 10px;
     height: 100px;
@@ -65,7 +66,7 @@ header nav a {
 
 header nav a:hover {
     color: var(--tausta);
-    background-color: #eeeeee;
+    background-color: #94c00d;
 }
 
 .ingressi {
@@ -112,8 +113,9 @@ section {
 
 /* Footer */
 footer {
-    background-color: var(--bg-dark);
+    background-color: var(--bg-black);
     color: var(--teksti);
     padding: 40px 0;
     text-align: center;
+    border-top: var(--teksti) solid 5px;
 }
