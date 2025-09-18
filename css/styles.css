@@ -34,7 +34,7 @@ body {
     color: var(--teksti);
 }
 
-/* kriteerit muotoilu */
+/* Kriteerit muotoilu */
 body.kriteerit table,
 body.kriteerit th,
 body.kriteerit td {
@@ -81,6 +81,7 @@ header nav a:hover {
     background-color: #94c00d;
 }
 
+/* Ingressi-tyylit */
 .ingressi {
     font-size: 1.2em;
     font-style: italic;
@@ -101,10 +102,7 @@ main {
     padding-top: 80px;
 }
 
-
-
 /* section-lohkon tyylit */
-
 section {
     max-width: 1100px;
     width: 70%;
@@ -151,7 +149,6 @@ section {
     list-style-type: square;
     border-left: #94c00d solid 5px;
 }
-
 
 /* Footer */
 footer {
