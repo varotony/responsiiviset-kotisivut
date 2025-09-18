@@ -53,19 +53,9 @@
         font-weight: bold;
     }
 
-    .työtehtävät {
-        padding: 0 5px;
-    }
-
-    .tutkinnon {
-        padding: 0 5px;
-    }
-
-    .tutkinnonosat {
-        padding: 0 5px;
-    }
-
-    .kriteeritsec {
+    .työtehtävät, .tutkinnon, 
+    .tutkinnonosat, .kriteeritsec, 
+    .osaamisenarviointi {
         padding: 0 5px;
     }
 
