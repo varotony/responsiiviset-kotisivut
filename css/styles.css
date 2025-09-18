@@ -11,6 +11,20 @@
 * {
     box-sizing: border-box;
 }
+/* Yleiskäyttöiset tyylit */
+
+/* Vertikaalinen keskitys */
+.v-center {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+/* Horisontaalinen tasaus oikealle */
+.h-right {
+    position: absolute;
+    right: 0;
+}
 
 body {
     margin: 0;
@@ -21,9 +35,9 @@ body {
 }
 
 /* kriteerit muotoilu */
-body.kriteerit2 table,
-body.kriteerit2 th,
-body.kriteerit2 td {
+body.kriteerit table,
+body.kriteerit th,
+body.kriteerit td {
     border: 1px solid #eeeeee;
     color: var(--teksti)
 }
@@ -46,19 +60,17 @@ header .logo {
 }
 
 header .logo img {
+    rotate: -25deg;
     height: 70px;
     padding: 5px;
     display: block;
-    float: right;
+    float: left;
 }
-header nav {
-    float: center;
 
-}
 
 header nav a {
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: var(--teksti);
     text-decoration: none;
     padding: 0.5em;
@@ -73,7 +85,7 @@ header nav a:hover {
     font-size: 1.2em;
     font-style: italic;
     line-height: 1.6em;
-
+    padding-left: 20px;
 }
 
 .ingressi::first-letter {
@@ -110,6 +122,36 @@ section {
     background-image: url('../img/showcase.jpg');
     background-position: center;
 }
+
+/* Ammattitaitovaatimukset */
+.ammattitaitovaatimukset {
+    padding: 0;
+   
+}
+
+.ammattitaitovaatimukset > li {
+    list-style-type: none;
+}
+
+.ammattitaitovaatimukset > li > ul {
+    border-left: #94c00d solid 5px;
+}
+
+.ammattitaitovaatimukset > li > ul li {
+    padding: 0;
+    list-style-type: square;
+}
+
+.ammattitaitovaatimukset h1 {
+    font-size: 1.7em;
+}
+
+/* Tutkinnonmuodostuminen */
+.tutkinnonmuodostuminen {
+    list-style-type: square;
+    border-left: #94c00d solid 5px;
+}
+
 
 /* Footer */
 footer {

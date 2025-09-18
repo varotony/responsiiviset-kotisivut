@@ -1,0 +1,109 @@
+/* Mobiilityylit */
+@media only screen and (max-width: 768px) {
+
+    header,
+    header > div.logo,
+    header > nav,
+    header > nav > a,
+    section,
+    main {
+        display: block;
+        float: none;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        clear: both;
+        position: relative;
+        padding: 0;
+        font-size: 1.0em;
+        line-height: 1.5em;
+    }
+
+    header nav a {
+        padding: 5px 0;
+    }
+
+    .showcase {
+        display: flex;
+        margin-top: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        min-height: 300px;
+        box-sizing: border-box;
+        font-size: 1.7em;
+        line-height: 1.7em;
+    }
+
+
+    /* Ingressi */
+    .ingressi {
+        padding: 0 5px;
+        font-size: 1em;
+        font-style: italic;
+        line-height: 1.5em;
+
+    }
+
+    .ingressi::first-letter {
+        float: none;
+        font-size: 1.5em;
+        line-height: 1em;
+        font-weight: bold;
+    }
+
+    .työtehtävät {
+        padding: 0 5px;
+    }
+
+    .tutkinnon {
+        padding: 0 5px;
+    }
+
+    .tutkinnonosat {
+        padding: 0 5px;
+    }
+
+    .kriteeritsec {
+        padding: 0 5px;
+    }
+
+    header .logo {
+        float: left;
+        font-size: 2em;
+    }
+
+    header .logo img {
+        rotate: -25deg;
+        height: 70px;
+        padding: 12px;
+        display: block;
+        float: left;
+    }
+
+    header nav a {
+        display: inline-block;
+        font-size: 1em;
+        line-height: 1em;
+        color: var(--teksti);
+        text-decoration: none;;
+        padding: 0.5em;
+    }
+
+
+    .v-center, .h-right {
+        display: block;
+        position: relative;;
+        transform: none;
+        padding: 20px 0;;
+    }
+
+
+    /* Footer tyylit */
+    footer {
+        padding: 51px 0;
+        width: 100%;
+    } 
+
+}
